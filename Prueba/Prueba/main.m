@@ -33,6 +33,7 @@ int main(int argc, char * argv[])
         }
     }
     
+    
     Pixel *pixel = [[Pixel alloc] init];
     [pixel situarEnOrigen];
     

@@ -13,6 +13,7 @@
     
 }
 
+
 - (void) situarEnOrigenInvertido;
 
 @end

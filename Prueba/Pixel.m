@@ -10,6 +10,7 @@
 
 @implementation Pixel
 
+
 //Declaraciones de metodos
 - (void) situarEnOrigen{
     posX=0;

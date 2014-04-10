@@ -13,6 +13,7 @@
 
 
 
+
 - (void) situarEnOrigen{
     posX=0;
     posY=300;

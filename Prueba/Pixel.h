@@ -15,6 +15,7 @@
     int posY;
 }
 
+
 //Declaraciones de metodos
 - (void) situarEnOrigen;
 - (void) moverHorizontalmente: (int) posicion;
