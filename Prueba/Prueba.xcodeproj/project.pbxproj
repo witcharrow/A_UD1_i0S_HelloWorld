@@ -19,6 +19,7 @@
 		E011B2A718F48EEB007423CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E011B28F18F48EEB007423CF /* UIKit.framework */; };
 		E011B2AF18F48EEB007423CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E011B2AD18F48EEB007423CF /* InfoPlist.strings */; };
 		E011B2B118F48EEB007423CF /* PruebaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E011B2B018F48EEB007423CF /* PruebaTests.m */; };
+		E014630618F870FC001B243B /* Clase.m in Sources */ = {isa = PBXBuildFile; fileRef = E014630518F870FC001B243B /* Clase.m */; };
 		E024931618F49BE100C99952 /* Pixel.m in Sources */ = {isa = PBXBuildFile; fileRef = E024931518F49BE100C99952 /* Pixel.m */; };
 		E0E499CB18F5EA2600CEFC73 /* PixelInvertido.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E499CA18F5EA2600CEFC73 /* PixelInvertido.m */; };
 /* End PBXBuildFile section */
@@ -50,6 +51,8 @@
 		E011B2AC18F48EEB007423CF /* PruebaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PruebaTests-Info.plist"; sourceTree = "<group>"; };
 		E011B2AE18F48EEB007423CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E011B2B018F48EEB007423CF /* PruebaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PruebaTests.m; sourceTree = "<group>"; };
+		E014630418F870FC001B243B /* Clase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clase.h; sourceTree = "<group>"; };
+		E014630518F870FC001B243B /* Clase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clase.m; sourceTree = "<group>"; };
 		E024931418F49BE100C99952 /* Pixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pixel.h; path = ../Pixel.h; sourceTree = "<group>"; };
 		E024931518F49BE100C99952 /* Pixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pixel.m; path = ../Pixel.m; sourceTree = "<group>"; };
 		E0E499C918F5EA2600CEFC73 /* PixelInvertido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixelInvertido.h; sourceTree = "<group>"; };
@@ -114,9 +117,11 @@
 			isa = PBXGroup;
 			children = (
 				E024931418F49BE100C99952 /* Pixel.h */,
+				E024931518F49BE100C99952 /* Pixel.m */,
 				E0E499C918F5EA2600CEFC73 /* PixelInvertido.h */,
 				E0E499CA18F5EA2600CEFC73 /* PixelInvertido.m */,
-				E024931518F49BE100C99952 /* Pixel.m */,
+				E014630418F870FC001B243B /* Clase.h */,
+				E014630518F870FC001B243B /* Clase.m */,
 				E011B29A18F48EEB007423CF /* AppDelegate.h */,
 				E011B29B18F48EEB007423CF /* AppDelegate.m */,
 				E011B29D18F48EEB007423CF /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				E0E499CB18F5EA2600CEFC73 /* PixelInvertido.m in Sources */,
 				E011B29C18F48EEB007423CF /* AppDelegate.m in Sources */,
 				E011B29818F48EEB007423CF /* main.m in Sources */,
+				E014630618F870FC001B243B /* Clase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

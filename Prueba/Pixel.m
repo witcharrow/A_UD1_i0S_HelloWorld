@@ -42,4 +42,16 @@
     
 }
 
+//***********************************************UNIDAD 2: Punto 3 Gestión de Memoria en IOS
+//- (id)init{
+//    [self initConPosicion:0 yPosY:0];
+//}
+
+//- (id) initConPosicion:(int)posX yPosY:(int)posY{
+//    [self initConPosicion:posX yPosY:posY yColor:[[Color alloc]init];//
+//}
+//- (id)initConPosicion:(int)posX yPosY:(int)posY yColor:(Color) color{
+        //Inicializacion verdadera de las variables de instancia
+//}
+
 @end

@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface Pixel : NSObject{
 
     //variables de instancia
@@ -26,4 +27,8 @@
 - (void) setPosX: (int) valor;
 - (int) posY;
 - (void) setPosY: (int) valor;
+//***********************************************UNIDAD 2: Punto 3 Gestión de Memoria en IOS
+//- (id)init;
+//- (id) initConPosicion:(int)posX yPosY:(int)posY;
+//- (id)initConPosicion:(int)posX yPosY:(int)posY yColor:(Color) color;
 @end
