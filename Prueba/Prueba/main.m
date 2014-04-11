@@ -9,12 +9,15 @@
 #import <UIKit/UIKit.h>
 
 #import "AppDelegate.h"
+#import "Pixel.h"
 #import "PixelInvertido.h"
 
 int main(int argc, char * argv[])
 {
+    //primer programa: Hola Mundo
     printf("Hola Mundo");
     
+    //segundo programa: comparacion de cadenas
     NSString *cadena1 = @"hola";
     NSString *cadena2 = @"h";
     cadena2 = [cadena2 stringByAppendingString:@"ola"];
@@ -33,7 +36,7 @@ int main(int argc, char * argv[])
         }
     }
     
-    
+    //tercer programa: pixel
     Pixel *pixel = [[Pixel alloc] init];
     [pixel situarEnOrigen];
     
@@ -53,11 +56,16 @@ int main(int argc, char * argv[])
     }
     //[pixel release];
     
-    pixel = [[PixelInvertido alloc] init];
+    // Seguramente esta ejecutando la aplicación usando ARC. ARC es una forma de gestión automática de la memoria (viene explicado más adelante en la documentación), donde no tiene cabida la llamada a release (de ahí el error). Si no tiene acceso a una versión de XCode más antigua no podrá probar aquello de release, autorelease... etc. Está bien que lo conozca, pues por debajo Objective-C está utilizando eso, pero en las últimas versiones de XCode por defecto todo el código es con ARC.
     
-    [pixel situarEnOrigenInvertido];
+    PixelInvertido *pixelInv= [[PixelInvertido alloc]init];
+    
+    [pixelInv situarEnOrigenInvertido];
+    //En las últimas versiones de XCode han modificado cómo se comporta el compilador respecto a ese aviso, pasando a ser un error. En realidad es mejor, pues así evita que se pueda llamar a un método que no existe. Tendría que asignar dicho pixel a una referencia PixelInvertido para que no le dé el error.
     
     NSLog(@"X: %d, Y: %d",[pixel posX],[pixel posY]);
+    //[pixel release];
+    
     
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));

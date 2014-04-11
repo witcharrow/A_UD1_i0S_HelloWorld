@@ -7,6 +7,7 @@
 //
 
 #import "Pixel.h"
+#import <Foundation/Foundation.h>//podemos incluir tambien esta cabecera como en pixel.h, al ser import no da error.
 
 @implementation Pixel
 
@@ -26,6 +27,7 @@
 - (BOOL) estaFueraDeLosLimites{
     return (posX>300)||(posY>300)||(posX<0)||(posY<0);
 }
+//getters y setters,tienen el mismo nombre que el método para poder usar la notacion de punto
 - (int) posX{
     return posX;
 }

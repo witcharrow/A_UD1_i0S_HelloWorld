@@ -21,6 +21,7 @@
 - (void) moverHorizontalmente: (int) posicion;
 - (void) moverHorizontalmente:(int)posicionX yVerticalmente: (int)posicionY;
 - (BOOL) estaFueraDeLosLimites;
+//getters y setters,tienen el mismo nombre que el método para poder usar la notacion de punto
 - (int) posX;
 - (void) setPosX: (int) valor;
 - (int) posY;
